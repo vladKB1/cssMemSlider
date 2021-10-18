@@ -83,12 +83,40 @@ body {
 .controls label {
     width: 25px;
     height: 25px;
-    margin: 10px;
+    border: 10px solid #202325;
     border-radius: 50%;
+    
 
     background-color: rgb(92, 92, 243);
     cursor: pointer;
 }
+
+.controls label:hover {
+    background-color: white;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    opacity: 0;
+    background-color: #202325;
+}
+
+#slide1:checked ~ .slider-box .controls .circle1,
+#slide2:checked ~ .slider-box .controls .circle2,
+#slide3:checked ~ .slider-box .controls .circle3,
+#slide4:checked ~ .slider-box .controls .circle4 {
+    opacity: 1;
+} 
 
 #slide1:checked ~ .slider .s1,
 #slide1:checked ~ .slider-box .t1 {

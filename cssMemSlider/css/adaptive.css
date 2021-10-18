@@ -8,6 +8,15 @@
         height: 18.75px;
         margin: 7.5px;        
     }
+
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4 {
+        width: 11.25px;
+        height: 11.25px;
+        margin: 3.75px;
+    }
 }
 
 @media (max-width: 768px) {
