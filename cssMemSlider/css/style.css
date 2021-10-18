@@ -31,8 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 25%; 
-    height: fit-content;
-    margin: 20px; 
+    height: 100%;
     margin-bottom: 40px;   
     border-radius: 0.5%;
 
@@ -90,4 +89,24 @@ body {
     border-radius: 50%;
 
     background-color: rgb(92, 92, 243);
+}
+
+#slide1:checked ~ .slider .s1,
+#slide1:checked ~ .slider-box .t1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .slider .s1,
+#slide2:checked ~ .slider-box .t1 {
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .slider .s1,
+#slide3:checked ~ .slider-box .t1 {
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .slider .s1,
+#slide4:checked ~ .slider-box .t1 {
+    margin-left: -75%;
 }
