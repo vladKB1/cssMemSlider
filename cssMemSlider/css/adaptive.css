@@ -11,11 +11,14 @@
 }
 
 @media (max-width: 768px) {
+    .wrapper {
+        margin: 3% auto;
+    }
     .slides img {
         height: calc(100%);
         width: 100%;
     }
-    
+
     .controls {
         order: 1;
         align-self: center;
@@ -29,5 +32,11 @@
 
     .slider-box {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .wrapper {
+        margin: 6% auto;
     }
 }
