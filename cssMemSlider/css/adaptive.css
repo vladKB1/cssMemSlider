@@ -1,0 +1,51 @@
+@media (max-width: 960px) {
+    .text {
+        font-size: 1.5em;
+    }
+    
+    .controls label {
+        width: 18.75px;
+        height: 18.75px;
+        margin: 7.5px;        
+    }
+
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4 {
+        width: 11.25px;
+        height: 11.25px;
+        margin: 3.75px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 3% auto;
+    }
+    .slides img {
+        height: calc(100%);
+        width: 100%;
+    }
+
+    .controls {
+        order: 1;
+        align-self: center;
+        margin-bottom: 40px;        
+    }
+
+    .text-wrapper {
+        order: 2;
+        
+    }
+
+    .slider-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .wrapper {
+        margin: 6% auto;
+    }
+}

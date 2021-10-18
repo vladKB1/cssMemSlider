@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Mem Slider</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
 </head>
 <body>
-    
+    <main>
+        <div class="wrapper">   
+            <input type="radio" name="point" id="slide1" checked>
+            <input type="radio" name="point" id="slide2">
+            <input type="radio" name="point" id="slide3">
+            <input type="radio" name="point" id="slide4">         
+
+            <div class="slider">                
+                <div class="slides s1">
+                    <img src="assets/mems/slide1.jpg" alt="slide1">
+                </div>
+                <div class="slides">
+                    <img src="assets/mems/slide2.jpg" alt="slide2">
+                </div>
+                <div class="slides">
+                    <img src="assets/mems/slide3.jpg" alt="slide3">
+                </div>
+                <div class="slides">
+                    <img src="assets/mems/slide4.jpg" alt="slide4">
+                </div>                
+            </div>	
+
+            <div class="slider-box">
+                <div class="text-wrapper">
+                    <div class="slider__text">                   
+                        <div class="text t1">Ты покупал ребёнка?</div>
+                        <div class="text">Родная, мы его вообще-то с тобой сами делали</div>
+                        <div class="text">...</div>
+                        <div class="text">В ванной ты купал ребёнка, наркоман, бл*ть?</div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <label for="slide1"><div class="circle1"></div></label>
+                    <label for="slide2"><div class="circle2"></div></label>
+                    <label for="slide3"><div class="circle3"></div></label>
+                    <label for="slide4"><div class="circle4"></div></label>                
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
